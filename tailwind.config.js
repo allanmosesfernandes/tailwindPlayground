@@ -8,7 +8,9 @@ module.exports = {
       lg: "1024px",
       xl: "1440px",
     },
-
+    fontFamily: {
+      body: ['"Inter"', "sans-serif"],
+    },
     extend: {
       colors: {
         brightRed: "hsl(12, 88%, 59%)",
